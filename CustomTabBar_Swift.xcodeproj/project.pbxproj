@@ -8,13 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		503A53471CEB233C007027C9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 503A53461CEB233C007027C9 /* AppDelegate.swift */; };
-		503A53491CEB233C007027C9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 503A53481CEB233C007027C9 /* ViewController.swift */; };
 		503A534C1CEB233C007027C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 503A534A1CEB233C007027C9 /* Main.storyboard */; };
 		503A534E1CEB233C007027C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 503A534D1CEB233C007027C9 /* Assets.xcassets */; };
 		503A53511CEB233C007027C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 503A534F1CEB233C007027C9 /* LaunchScreen.storyboard */; };
 		503A535C1CEB233C007027C9 /* CustomTabBar_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 503A535B1CEB233C007027C9 /* CustomTabBar_SwiftTests.swift */; };
 		503A53671CEB233C007027C9 /* CustomTabBar_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 503A53661CEB233C007027C9 /* CustomTabBar_SwiftUITests.swift */; };
 		503A53751CEB23AA007027C9 /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 503A53741CEB23AA007027C9 /* CustomTabBar.swift */; };
+		5047C2B81CEBF22A00FD398B /* HomeTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5047C2B71CEBF22A00FD398B /* HomeTabBarController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +37,6 @@
 /* Begin PBXFileReference section */
 		503A53431CEB233C007027C9 /* CustomTabBar_Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomTabBar_Swift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		503A53461CEB233C007027C9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		503A53481CEB233C007027C9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		503A534B1CEB233C007027C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		503A534D1CEB233C007027C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		503A53501CEB233C007027C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +48,7 @@
 		503A53661CEB233C007027C9 /* CustomTabBar_SwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar_SwiftUITests.swift; sourceTree = "<group>"; };
 		503A53681CEB233C007027C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		503A53741CEB23AA007027C9 /* CustomTabBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
+		5047C2B71CEBF22A00FD398B /* HomeTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeTabBarController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,7 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				503A53461CEB233C007027C9 /* AppDelegate.swift */,
-				503A53481CEB233C007027C9 /* ViewController.swift */,
+				5047C2B71CEBF22A00FD398B /* HomeTabBarController.swift */,
 				503A53741CEB23AA007027C9 /* CustomTabBar.swift */,
 				503A534A1CEB233C007027C9 /* Main.storyboard */,
 				503A534D1CEB233C007027C9 /* Assets.xcassets */,
@@ -259,9 +259,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				503A53491CEB233C007027C9 /* ViewController.swift in Sources */,
 				503A53751CEB23AA007027C9 /* CustomTabBar.swift in Sources */,
 				503A53471CEB233C007027C9 /* AppDelegate.swift in Sources */,
+				5047C2B81CEBF22A00FD398B /* HomeTabBarController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
